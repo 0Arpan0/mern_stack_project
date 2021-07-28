@@ -1,0 +1,54 @@
+.input-group {
+    display: flex;    
+    justify-content: center;   
+   
+}
+.form-outline {
+    width: 50%;
+    /* border: 3px solid lightgrey; */
+    /* border-radius: 7.5px; */
+}
+
+li {
+    padding: 15px;
+    font-size: large;
+  
+}
+
+
+.bg-light {
+    background-color: yellow !important;
+}
+.logo {
+    padding: 5px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+/* .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+    position: fixed;
+    z-index: 10;
+} */
+
+@media(max-width: 991px) {
+    .input-group .btn  {
+        margin-top: -42px;
+        margin-bottom: 4px;
+        
+    }
+   
+    .form-outline {
+        margin-top: -42px;
+        margin-left: -15px;
+    }
+    
+    .navbar-toggler {
+        margin-right: 10px;    
+         
+    }
+    li:hover{
+        background-color: greenyellow;
+    }
+   
+}

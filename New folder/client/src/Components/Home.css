@@ -1,0 +1,14 @@
+.hike-img {
+    position: relative;
+    background: url('https://c4.wallpaperflare.com/wallpaper/391/886/484/hills-mountains-night-nature-wallpaper-preview.jpg') no-repeat center center/cover;
+    
+    height: 100vh; 
+    
+}
+
+.next {
+   margin-left: 80%;
+   
+   
+    margin-top: 120px;
+}
